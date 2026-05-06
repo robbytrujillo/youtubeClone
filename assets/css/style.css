@@ -1,0 +1,52 @@
+body {
+    background-color: #f8f9fa;  /* Mode terang */
+    transition: background-color 0.3s ease; /* Tambahkan transisi agar perpindahan mode lebih halus */
+  }
+  
+  .card {
+    transition: transform 0.3s, box-shadow 0.3s;/* Tambahkan efek bayangan saat hover */
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Efek bayangan saat hover */
+  }
+  
+  .card-title {
+    font-size: 1.1rem;  /* Sedikit lebih besar untuk menonjolkan judul */
+    font-weight: bold;
+    /* height: 200px;
+    object-fit: cover; */
+  }
+  
+  /* Mode Gelap */
+  .dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+    transition: background-color 0.3s, color 0.3s; /* Halus saat berganti mode */
+  }
+  
+  .dark-mode .card {
+    background-color: #1e1e1e;
+    border-color: #333;
+    border-radius: 8px;  /* Rounded corners untuk card */
+  }
+  
+  .dark-mode .card-title,
+  .dark-mode .btn {
+    color: #fff;
+  }
+  
+  .dark-mode .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .dark-mode .navbar {
+    background-color: #1a1a1a;
+  }
+  
+  .dark-mode .btn-primary:hover {
+    background-color: #0056b3;  /* Efek hover lebih gelap pada tombol */
+  }
+  
