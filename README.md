@@ -4,4 +4,4 @@
 
 <img src="assets/images/youtubeClone.png" />
 
-Link : <a href="https://youtubeclone-smpihbsputra.netlify.app/">YouTubeClone</a>
+Link : <a href="https://youtubeclone-smpihbsputra.netlify.app/" target="_blank" style="text-decoration: none">YouTubeClone</a>
